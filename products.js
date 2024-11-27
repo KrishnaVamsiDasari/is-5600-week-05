@@ -81,7 +81,6 @@ async function edit (_id, change) {
     product[key] = change[key]
   })
   
-
   
   await product.save()
 
